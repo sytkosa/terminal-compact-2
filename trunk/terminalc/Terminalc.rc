@@ -1,0 +1,256 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "terminalc.ico"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,2,3,0
+ PRODUCTVERSION 2,2,3,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x80000L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004b0"
+        BEGIN
+            VALUE "CompanyName", "ID Mind Arts"
+            VALUE "FileDescription", "Terminal Compact 2"
+            VALUE "FileVersion", "2, 2, 3, 0"
+            VALUE "InternalName", "Terminalc 2"
+            VALUE "LegalCopyright", "Copyright © 2008-2010 Vasiliy Kozlov, Sergey Golik"
+            VALUE "OriginalFilename", "Terminalc.exe"
+            VALUE "ProductName", "ID Mind Arts Terminal Compact 2"
+            VALUE "ProductVersion", "2, 2, 3, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Terminal Compact 2"
+    IDS_FAILURE             "Ошибка"
+    IDS_DEVICE_FAILURE      "Ошибка устройства"
+    IDS_READ_PENDING        "Ожидание данных"
+    IDS_READ_CANCELLED      "Чтение прервано"
+    IDS_READY               "Готов"
+    IDS_INACTIVE            "Неактивен"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TERMINALC           "TerminalC 2"
+    IDS_CLEAR_LIST          "Очистить таблицу?"
+    IDS_TERMINAL_READY      "ТЕРМИНАЛ: %s"
+    IDS_ERR_OPEN_INI        "Ошибка открытия файла terminalc.ini. Работа программы будет прекращена."
+    IDS_TERMINAL_REG        "Рег.:"
+    IDS_TERMINAL_UNREG      "Рег.:нет"
+    IDS_ERR_SCAN_PARAM      "Ошибка установки параметров сканера"
+    IDS_ERR_SCAN_OPEN       "Ошибка открытия сканера"
+    IDS_ERR_SCAN_ENBL       "Ошибка активации сканера"
+    IDS_ERR_SCAN_BUF        "Ошибка выделения памяти под сканер"
+    IDS_ERR_SCAN_MSG        "Ошибка чтения данных из буфера"
+    IDS_ERR_OPEN_DB         "Ошибка открытия файла terminalc.db. Работа программы будет прекращена."
+    IDS_ERR_DOUBLE_BC       "Повтор штрих-кода"
+    IDS_TERMINAL_LOADED_BC_COUNT "Известных позиций:%d"
+    IDS_BC_NOT_FOUND        "<Штрих-код не найден>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXIT                "Завершить работу?"
+    IDS_NEW_BARCODE         "Новый штрих-код № %.0d."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LOADING_INI         "Загрузка terminalc.ini . . ."
+    IDS_LOADING_DB          "Загрузка terminalc.db . . ."
+    IDS_AMOUNT              "Кол:"
+    IDS_SUM_WEIGHT          "Вес:"
+    IDS_SUM_QUANTITY        "Количество:"
+    IDS_SUMS                "Итог: %.3f кг, %.0d шт."
+    IDS_BUTTON_EXCH         "Обмен"
+    IDS_BUTTON_CLEAR        "Очистка"
+    IDS_BUTTON_EXIT         "Выход"
+    IDS_SAVE_LIST           "Сохранить и очистить таблицу?"
+    IDS_ERR_SAVE            "Ошибка при сохранении в файл!"
+    IDS_SAVING              "Сохранение в %s . . ."
+    IDS_ERR_GET_SN          "Ошибка при получении ID терминала!"
+    IDS_ERR_GET_SN_OPEN     "Ошибка при получении ID терминала (open RCM)"
+    IDS_ERR_PROC_SN         "Ошибка формирования ID терминала!"
+    IDS_ERR_SAVE_ID         "Ошибка при формировании регистрационных данных!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REG_CREATE          "Программа не зарегистрирована! Создан регистрационный файл devicec.id"
+    IDS_ERR_REG             "Программа не зарегистрирована! Регистрационный файл devicec.id содержит неверные данные."
+    IDS_ERR_REG_SAVE        "Программа не зарегистрирована! Функция сохранения недоступна."
+    IDS_SAVED_LOCAL         "Данные сохранены на терминал."
+    IDS_SAVED_SERVER        "Данные сохранены на сервер."
+    IDS_ERR_SAVE_SERVER     "Ошибка при сохранении на сервер! Данные будут сохранены в памяти терминала."
+    IDS_BC_NEW_WINDOW_TITLE "Новый штрих-код"
+    IDS_BC_WINDOW_TITLE     "Параметры штрих-кода"
+    IDS_PWD_BTNOK           "ОК"
+    IDS_PWD_BTNCANCEL       "Отмена"
+    IDS_BC_DESC             "Наименование:"
+    IDS_BC_QUANT            "Количество:"
+    IDS_SAVE_DESC           "Сохранить наименование для текущего ШК?"
+    IDS_DESC_SAVED          "Сохранено наименование: "
+    IDS_PWD_STATIC          "Введите пароль для выхода"
+    IDS_TERMINAL_EXIT       "Завершение работы . . ."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DELETE_BC           "Удалить позицию?"
+    IDS_SAVING_SERVER       "Передача на сервер %s . . ."
+    IDS_ERR_ACCESS_SERVER   "Нет доступа к %s "
+    IDS_SERVER_CHECK        "Подключение к серверу . . ."
+    IDS_ERR_WIFI            "Беспроводная сеть недоступна! "
+    IDS_SCAN_CODE128_AGAIN  "<< Повторное сканирование >>"
+    IDS_ERR_DELETE          "Не удалось удалить файл %s из памяти терминала!"
+    IDS_AMOUNT_FILES        "Передано на сервер %.0d файл(ов)."
+    IDS_ERR_LOAD_SERVER     "Ошибка при копировании обновления с сервера!"
+    IDS_SERVER_LOAD         "Проверка обновлений на сервере . . ."
+    IDS_TERMINALC_DB        "terminalc.db"
+    IDS_DB_UPDATED          " Обновлено. Известных позиций: %d."
+    IDS_BC_WRONG_CODE128    "<Штрих-код не поддерживается>"
+    IDS_NEW_BARCODE128      "Информационный штрих-код № %.0d."
+    IDS_NO_UPDATE           " Обновление отсутствует."
+    IDS_ERR_REG_UPDATE      "Программа не зарегистрирована! Функция обновления недоступна."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VERSION             "Версия:"
+    IDS_LOADING_NEW_DB      "Загрузка terminalc.new . . ."
+    IDS_TERMINALC_NEW       "terminalc.new"
+    IDS_ERR_OPEN_UPD        "Ошибка открытия файла обновлений!"
+    IDS_ERR_SAVE_NEW        "Ошибка сохранения файла terminal.new!"
+    IDS_TERMINAL_LOADED_BC_COUNT_NEW "Известных позиций:%d(%d)"
+    IDS_DB_UPDATED_NEW      " Обновлено. Известных позиций: %d(%d)."
+    IDS_CLEAR_LIST_NEW      "Очистить список новых штрих-кодов?"
+    IDS_ALPHA_MODE          "Внимание! На клавиатуре включен режим ввода букв (клавиша Aplha)!"
+    IDS_COPYING_DB          "Копирование terminalc.db . . ."
+    IDS_ERR_CODE128_PREFIX  "Не корректное значение префикса информационного ШК. Параметр отключен."
+    IDS_ERR_WEIGHTBC_PREFIX "Не корректное значение префикса весового ШК. Параметр отключен."
+    IDS_ERR_DEL_RECFILE     "Ошибка удаления файла recovery.txt"
+    IDS_RECFILE_FOUND       "Обнаружено некорректное завершение программы. Восстановить данные?"
+    IDS_RECMODE             "Восстановление данных . . ."
+END
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
