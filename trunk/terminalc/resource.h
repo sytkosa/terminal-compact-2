@@ -1,0 +1,120 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by Terminalc.rc
+//
+#define IDS_TERMINALC                   1
+#define IDS_CLEAR_LIST                  2
+#define IDS_TERMINAL_INIT               3
+#define IDS_TERMINAL_READY              3
+#define IDS_ERR_OPEN_INI                4
+#define IDS_TERMINAL_REG                5
+#define IDS_TERMINAL_UNREG              6
+#define IDS_ERR_SCAN_PARAM              7
+#define IDS_ERR_SCAN_OPEN               8
+#define IDS_ERR_SCAN_ENBL               9
+#define IDS_ERR_SCAN_BUF                10
+#define IDS_ERR_SCAN_MSG                11
+#define IDS_ERR_OPEN_DB                 12
+#define IDS_ERR_DOUBLE_BC               13
+#define IDS_TERMINAL_LOADED_BC_COUNT    14
+#define IDS_BC_NOT_FOUND                15
+#define IDS_LOADING_INI                 16
+#define IDS_LOADING_DB                  17
+#define IDS_AMOUNT                      18
+#define IDS_SUM_WEIGHT                  19
+#define IDS_SUM_QUANTITY                20
+#define IDS_SUMS                        21
+#define IDS_BUTTON_EXCH                 22
+#define IDS_BUTTON_CLEAR                23
+#define IDS_BUTTON_EXIT                 24
+#define IDS_SAVE_LIST                   25
+#define IDS_ERR_SAVE                    26
+#define IDS_SAVING                      27
+#define IDS_ERR_GET_SN                  28
+#define IDS_ERR_GET_SN_OPEN             29
+#define IDS_ERR_PROC_SN                 30
+#define IDS_ERR_SAVE_ID                 31
+#define IDS_REG_CREATE                  32
+#define IDS_ERR_REG                     33
+#define IDS_ERR_REG_SAVE                34
+#define IDS_SAVED_LOCAL                 35
+#define IDS_SAVED_SERVER                36
+#define IDS_ERR_SAVE_SERVER             37
+#define IDS_BC_NEW_WINDOW_TITLE         38
+#define IDS_BC_WINDOW_TITLE             39
+#define IDS_BC_BTNSAVE                  40
+#define IDS_PWD_BTNOK                   40
+#define IDS_BC_BTNCANCEL                41
+#define IDS_PWD_BTNCANCEL               41
+#define IDS_BC_DESC                     42
+#define IDS_BC_QUANT                    43
+#define IDS_SAVE_DESC                   44
+#define IDS_DESC_SAVED                  45
+#define IDS_PWD_STATIC                  46
+#define IDS_TERMINAL_EXIT               47
+#define IDS_DELETE_BC                   48
+#define IDS_SAVING_SERVER               49
+#define IDS_ERR_ACCESS_SERVER           50
+#define IDS_SERVER_CHECK                51
+#define IDS_ERR_WIFI                    52
+#define IDS_BUTTON_SAVE                 53
+#define IDS_SCAN_CODE128_AGAIN          53
+#define IDS_ERR_DELETE                  54
+#define IDS_AMOUNT_FILES                55
+#define IDS_ERR_LOAD_SERVER             56
+#define IDS_SERVER_LOAD                 57
+#define IDS_TERMINALC_DB                58
+#define IDS_DB_UPDATED                  59
+#define IDS_BC_WRONG_CODE128            60
+#define IDS_NEW_BARCODE128              61
+#define IDS_NO_SERVER_UPD               62
+#define IDS_NO_UPDATE                   62
+#define IDS_ERR_REG_UPDATE              63
+#define IDS_VERSION                     64
+#define IDS_LOADING_NEW_DB              65
+#define IDS_TERMINALC_NEW               66
+#define IDS_ERR_OPEN_UPD                67
+#define IDS_ERR_SAVE_NEW                68
+#define IDS_TERMINAL_LOADED_BC_COUNT_NEW 69
+#define IDS_DB_UPDATED_NEW              70
+#define IDS_CLEAR_LIST_NEW              71
+#define IDS_ALPHA_MODE                  72
+#define IDS_COPYING_DB                  73
+#define IDS_ERR_CODE128_PREFIX          74
+#define IDS_ERR_WEIGHTBC_PREFIX         75
+#define IDS_ERR_DEL_RECFILE             76
+#define IDS_RECFILE_FOUND               77
+#define IDS_RECMODE                     78
+#define IDS_STRING103                   103
+#define IDS_WRONG_SCREEN_SIZE           103
+#define IDI_ICON1                       105
+#define ID_TERMINAL_ACCELERATOR         106
+#define IDS_EXIT                        107
+#define IDS_NEW_BARCODE                 110
+#define IDC_EDIT_DATA                   1000
+#define IDC_EDIT_LEN                    1001
+#define IDC_EDIT_TYPE                   1002
+#define IDC_BUTTON_SOFTTRIGGER          1003
+#define IDC_CONTINUOUS                  1004
+#define IDC_LIST1                       1005
+#define IDC_SCAN_LIST                   1012
+#define IDC_TREE1                       1014
+#define IDS_APP_TITLE                   0xE000
+#define IDS_FAILURE                     57345
+#define IDS_ERR_BUF                     57346
+#define IDS_DEVICE_FAILURE              57347
+#define IDS_READ_PENDING                57348
+#define IDS_READ_CANCELLED              57349
+#define IDS_READY                       57350
+#define IDS_INACTIVE                    57351
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        111
+#define _APS_NEXT_COMMAND_VALUE         40008
+#define _APS_NEXT_CONTROL_VALUE         1017
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
